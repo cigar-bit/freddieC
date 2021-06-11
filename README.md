@@ -4,6 +4,7 @@ Rough C++ implementation of freddie_segment
 To build install cmake if not already installed and run the following:
 
 $ cmake -DCMAKE_BUILD_TYPE=Release .
+
 $ make
 
 Note: If you prefer building in another directory that is fine as well just move the final freddie_segment executable into the parent directory of the test/ directory
