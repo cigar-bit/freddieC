@@ -724,9 +724,7 @@ void refine_segmentation(const std::vector<double> &y_raw, std::vector<uint32_t>
 
 void get_unaligned_gaps_and_polyA(Read &read, const std::vector<std::array<int, 2>> &segs)
 {
-    if (read.name == "ca1c8af3-2f60-40f9-a052-79e082a66e61") {
-        int agapgjagjpa =1;
-    }
+
         
     read.gaps.reserve(200);
     bool one_in = false;
