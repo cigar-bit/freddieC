@@ -10,6 +10,8 @@ $ make
 Note: If you prefer building in another directory that is fine as well just move the final freddie_segment executable into the parent directory of the test/ directory
 
 To run:
-$ ./freddie_segment -s test/split/ --outdir test/freddie_segment/ -t 1
+$ 
+
+./freddie_segment -s test/split/ --outdir test/freddie_segment/ -t 1
 
 Arguments are the same as the original Freddie, this implementation can support multithreading as well.
